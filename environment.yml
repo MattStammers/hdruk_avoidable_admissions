@@ -22,11 +22,14 @@ dependencies:
   - pip
   - pre-commit
   - python-dotenv
-  - python>=3.11
+  - python>=3.10
   - seaborn
-  # Uncomment these lines and update environment as analytics advances
-  # - scikit-learn
-  # - scipy
-  # - statsmodels
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - ipykernel
+  - xlsxwriter
+  - openpyxl
+  - cx_Oracle
   - pip:
       - -e .
